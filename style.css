@@ -47,12 +47,13 @@ p{
     margin: 30px;
     padding: 10px;
     font-size: 20px;
+
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
-    color: #089e60;
+    color: #4aaaa5;
     font-weight: bold;
     margin: 15px;
     padding-top: 15px;
@@ -70,7 +71,7 @@ h2{
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
-    color: #089e60;
+    color: #4aaaa5;
     margin: 15px;
     margin-left: 40px;
     font-weight: bold;
@@ -88,7 +89,7 @@ th{
 }
 
 .navbar-brand{
-    background-color: #089e60;
+    background-color: #4aaaa5;
     color: white;
     font-size: x-large;
     font-weight: 700;
@@ -107,8 +108,11 @@ th{
 .navbar-nav{
     margin-left: auto;
 }
-@media (max-width: 600px) {
-    .navbar{
-        background:red;
-    }
+
+.description-content > p{
+    font-size: 15px;
+    line-height: 30px;
+    color: slategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
